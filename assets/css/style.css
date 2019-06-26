@@ -1,0 +1,292 @@
+/**{
+    border-radius: 5px;
+    border: 1px solid blue
+}*/
+#jumbo{
+height:8vh;
+padding-top:0px;
+padding-bottom:0px;
+margin-bottom: 0rem;
+position: fixed;
+left: 0;
+top: 0;
+width: 100vw;
+z-index: 4;
+opacity: .8;
+border-bottom: 3px solid gray;
+}
+#name{
+    display: inline-block;
+    height: 7vh;
+    width: 15vw;
+    min-width: 175px;
+}
+#email{ 
+    display: inline-block;
+    position: relative;
+    top: 0vh;
+    left: 2vw;
+    height: 5vh;
+    width: 24vw;
+}
+#buttons{
+    position: relative;
+    float: right;
+    top: 1vh;
+    width:22vw;
+    height:5vh;
+    min-width: 272px;
+}
+.developerBtn{
+    position: relative;
+    float: right;
+    top: 0vh;
+    height: 5vh;
+    width: 8vw;
+    padding: 0px;
+    margin-right: 2vw;
+    background-color:#52402c; 
+}
+.links{
+    height: 4vh;
+    width: 10vw;
+    top: 4vh;
+    color:black;
+}
+#linkholder{
+    width: 35vw;
+    float:right;
+}
+#landing{
+    height:100vh;
+    background: url(../images/computer2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#mission{
+    position: relative;
+    top: 18vh;
+    left: 58vw;
+    height:40vh;
+    width:36vw;
+    background-color: bisque;
+    opacity: .8;
+    padding-top: 10px;
+}
+#expirence{
+    height: 99vh;
+       background: url(../images/old_map.png) 
+    /*background-color:#c6bab0;*/
+}
+#expHead{
+    position: relative;
+    top: 8vh;
+    height: 6vh;
+}
+#expCardHolder{
+    width: 99%;
+}
+.expirenceCard{
+    position:relative;
+    top: 1vh;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    width: 25vw;
+    background-color: #c4d8e7;
+    color:#52402c;
+}
+#technology{
+    height:100vh;
+    background-color: #c4d8e7; 
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.technologyCard{
+    position: relative;
+    top: 25vh;
+    background-color: whitesmoke; 
+    height:61vh;
+    width:37vw;
+}
+.techLang{
+    position: relative;
+    top: 25.5vh;
+    background-color: whitesmoke;
+}
+#programs{
+    height:100vh;
+    background-color: yellowgreen; 
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.programs{
+    margin-left: 0px;
+}
+.app{
+    height:50vh;
+}
+#sniffer{
+    background: url(../images/sniffer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+#recipe{
+    background: url(../images/rb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+#giphy{
+    background: url(../images/gif2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+#mta{
+    background: url(../images/train.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+}
+#bart{
+    background: url(../images/bbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+}
+#hockey{
+    background: url(../images/hockey.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+}
+
+html  {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    width: 100vw;
+    height: 99vh;
+}
+@media screen and (max-width: 640px) {
+    #jumbo{
+        height:18vh;    
+        padding-top:0px;
+        padding-bottom:0px;
+        margin-bottom: 0rem;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 104vw;
+        z-index: 4;
+        opacity: .8;
+        border-bottom: 3px solid gray;
+    }
+    #name{
+        position: relative;
+        display: block;
+        height: 7vh;
+        width: 15vw;
+        min-width: 175px;
+        float: left;
+    }
+    #email{ 
+        display: block;
+        position: absolute;
+        top: 7vh;
+        left: 15px;
+        height: 5vh;
+        width: 24vw;
+        float: left;
+    }
+    #buttons{
+        position: relative;
+        float: left;
+        top: 5vh;
+        width:22vw;
+        height:5vh;
+        min-width: 272px;
+    }
+    .developerBtn{
+        position: relative;
+        float: left;
+        top: 0vh;
+        height: 5vh;
+        width: 8vw;
+        padding: 0px;
+        margin-right: 2vw;
+        background-color:#52402c; 
+        min-width: 95px;
+    }
+    #mission{
+        position: relative;
+        top: 24vh;
+        left: 11vw;
+        height:33vh;
+        width:36vw;
+        background-color: bisque;
+        opacity: .8;
+        padding-top: 10px;
+        min-width: 300px;
+    }
+    #expirence{
+        height: 154vh;
+           background: url(../images/old_map.png) 
+        /*background-color:#c6bab0;*/
+    }    
+    #expCardHolder{
+        padding-left: 10px;
+    }
+    .expirenceCard{
+        position:relative;
+        top: 0vh;
+        width: 25vw;
+        background-color: #c4d8e7;
+        color:#52402c;
+        min-width: 377px;
+    }
+    #technology{
+        height:124vh;
+    }
+    .technologyCard{
+        position: relative;
+        top: 0vh;
+        background-color: whitesmoke; 
+        height:300px;
+        width:104vw;
+        padding: 0px;
+    }
+    .techLang{
+        position: relative;
+        top: 0vh;
+        background-color: whitesmoke;
+    }
+    #langHolder{
+        height: 33vh;
+    }
+    .programs{
+        width: 100vw;
+    }
+    #tech{
+        height:300px;
+    }
+    .app, #techCard, .tech{
+        padding: 0px;
+    }
+    #teck{
+        height: 287px;
+        width: 387px;
+    }
+}

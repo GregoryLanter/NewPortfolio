@@ -2,6 +2,9 @@
     border-radius: 5px;
     border: 1px solid blue
 }*/
+a{
+    color: #EAE7C0;
+}
 #jumbo{
 height:8vh;
 padding-top:0px;
@@ -124,6 +127,34 @@ border-bottom: 3px solid gray;
 }
 .app{
     height:50vh;
+}
+/**one class for the banner across each image**/
+.banner{
+    height:8%; /*40px;*/
+    width:101%;
+    background-color: black;
+    color: #EAE7C0;
+    text-align: center;
+    position: relative;
+    top: 94%;
+    left: -1px;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 3;
+}
+.bannerText{
+    color: #EAE7C0
+}
+.gitHubBtn{
+    position: relative;
+    float: right;
+    top: 0vh;
+    height:99%;
+    width: 1vw;
+    padding: 0px;
+    margin-right: 1vw;
+    background-color: transparent; 
 }
 #sniffer{
     background: url(../images/sniffer.png);
